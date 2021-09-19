@@ -1,0 +1,101 @@
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    min-height: 350px;
+    min-width: 300px;
+
+    
+}
+
+.left{
+    display: flex;
+    background-color:white;
+    min-width: 48%;
+    justify-content:right;
+    
+}
+
+.mid{
+    background-color:white;
+    min-width: 2%;
+}
+.right{
+    background-color:white;
+    min-width: 44%;
+    justify-content:left;
+}
+
+
+.login{
+
+    background-color:white;
+    min-height: 55%;
+    max-width: 55%;
+    border: 1px gray solid;
+    text-align: center;    
+
+}
+
+.signup{
+
+    background-color:white;
+    min-height: 10%;
+    justify-content:center;
+    max-width: 55%;
+    border: 1px gray solid;
+    text-align: center;    
+}
+.store{
+
+    background-color: white;
+    min-height: 10%;
+    justify-content:center;
+    max-width: 55%;
+    text-align: center;    
+}
+
+.txt{
+
+    width: 250px;
+    height: 30px;
+    background-color:rgb(240, 232, 232);
+    padding: 3px;
+    border-radius: 2px 2px 2px 2px; 
+    border-width: 0px;   
+}
+
+
+.btn{
+    width: 260px;
+   height: 30px;
+   background-color:lightblue;
+   color: white;
+   font-weight: bolder;
+   padding: 3px;
+   border-radius: 5px 5px 5px 5px;    
+   border-width: 0px;
+}
+
+
+  .fotter1{
+    padding: 10px;
+    align-content: center;
+    font-size: 14px;
+    
+}
+
+.fotter1_text{
+    color: gray;
+    text-decoration: none;
+}
+.fotter2{
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    color: gray;
+
+}
